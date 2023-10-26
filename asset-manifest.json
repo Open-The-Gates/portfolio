@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/aymanoukacha.xyz/static/css/main.3bec4d4f.css",
-    "main.js": "/aymanoukacha.xyz/static/js/main.0c31ab9b.js",
-    "static/js/787.1ed0c42c.chunk.js": "/aymanoukacha.xyz/static/js/787.1ed0c42c.chunk.js",
-    "static/media/colorful-planets.jpg": "/aymanoukacha.xyz/static/media/colorful-planets.b25490703880d6f44888.jpg",
-    "static/media/resume.pdf": "/aymanoukacha.xyz/static/media/resume.e87c4bd537e0b3ca5e92.pdf",
-    "static/media/pdf.png": "/aymanoukacha.xyz/static/media/pdf.14ef5f99c9fe260dbb89.png",
-    "static/media/cmd.png": "/aymanoukacha.xyz/static/media/cmd.9c8dce00d853bcfaf4d7.png",
-    "static/media/logo.svg": "/aymanoukacha.xyz/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/aymanoukacha.xyz/index.html",
-    "main.3bec4d4f.css.map": "/aymanoukacha.xyz/static/css/main.3bec4d4f.css.map",
-    "main.0c31ab9b.js.map": "/aymanoukacha.xyz/static/js/main.0c31ab9b.js.map",
-    "787.1ed0c42c.chunk.js.map": "/aymanoukacha.xyz/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/static/css/main.3bec4d4f.css",
+    "main.js": "/static/js/main.074dc54b.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/colorful-planets.jpg": "/static/media/colorful-planets.b25490703880d6f44888.jpg",
+    "static/media/resume.pdf": "/static/media/resume.e87c4bd537e0b3ca5e92.pdf",
+    "static/media/pdf.png": "/static/media/pdf.14ef5f99c9fe260dbb89.png",
+    "static/media/cmd.png": "/static/media/cmd.9c8dce00d853bcfaf4d7.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.3bec4d4f.css.map": "/static/css/main.3bec4d4f.css.map",
+    "main.074dc54b.js.map": "/static/js/main.074dc54b.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3bec4d4f.css",
-    "static/js/main.0c31ab9b.js"
+    "static/js/main.074dc54b.js"
   ]
 }
