@@ -1,23 +1,26 @@
 import logo from "./logo.svg";
 import "./App.css";
-import pdf from "./pdf.png"; // Tell webpack this JS file uses this image
+import resume from "./resume.pdf"; 
+import pdf from "./pdf.png"; 
+import bg from "./colorful-planets.jpg"; 
+import cmd from "./cmd.png"; 
 import { TypeAnimation } from "react-type-animation";
 
 function App() {
 
   const downloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/resume.pdf'; // Provide the correct path to your PDF file
-    link.download = 'resume.pdf'; // Specify the file name for the download
+    link.href = resume; 
+    link.download = resume; 
     link.click();
   };
 
   return (
     <div
       className="App"
-      style={{ backgroundImage: "url(/colorful-planets.jpg)" }}
+      style={{ backgroundImage:`url(${bg})`}}
     >
-      <div className="cmd" style={{ backgroundImage: "url(/cmd.png)" }}>
+      <div className="cmd" style={{ backgroundImage:`url(${cmd})`}}>
         {" "}
         <TypeAnimation
           sequence={[
@@ -69,9 +72,9 @@ function App() {
       </div>
       <div className="resume" onClick={downloadResume}>
         <div className="placeholder"></div>
-        <img src={pdf} alt="Resume" height={"40px"} />;
+        <img src={pdf} alt="Resume" height={"40px"} />
         <div className="icon">resume.pdf</div>
-      </div>
+        </div>
     </div>
   );
 }
